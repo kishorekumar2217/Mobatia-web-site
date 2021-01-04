@@ -1,0 +1,73 @@
+import React,{Component} from 'react';  
+
+import OwlCarousel from 'react-owl-carousel';  
+
+
+
+
+
+
+export class Owldemo1 extends Component {  
+
+        render()  
+
+        {  
+
+          return (  
+
+            <div>  
+
+          <div className='container-fluid' >      
+
+           <div className="row title" style={{marginBottom: "20px"} } > 
+        
+          <h3 class="hny-title">Best A Grade Commercial
+       
+           </div>  
+
+       </div>  
+
+    <div className='container-fluid  protfolio-item hover14' >            
+
+        <OwlCarousel items={3}  
+
+          className="owl-theme"  
+
+          loop  
+
+          nav  
+          margin={10} >  
+           <div><img className="img" src= {'https://mobatia.com/wp-content/uploads/2020/01/nas-1.png'}/></div>  
+
+
+           <div ><img  className="img" src= 'https://mobatia.com/wp-content/uploads/2020/01/vkc-1.png'/></div>  
+
+           <div><img  className="img" src= 'https://mobatia.com/wp-content/uploads/2020/01/ch.png'/></div>  
+
+           <div><img  className="img" src= {'https://mobatia.com/wp-content/uploads/2020/01/wiss.png'}/></div>        
+
+           <div><img  className="img" src= {'https://mobatia.com/wp-content/uploads/2020/01/sgh.png'}/></div>  
+
+           <div><img className="img" src= {'https://mobatia.com/wp-content/uploads/2020/01/beverly.png'}/></div>  
+
+           <div><img className="img" src= {'https://mobatia.com/wp-content/uploads/2020/01/ca.png'}/></div>  
+
+
+      </OwlCarousel>  
+
+      </div>  
+
+  
+
+      </div>  
+
+          )  
+
+        }  
+
+      }  
+
+
+  
+
+export default Owldemo1  ;
